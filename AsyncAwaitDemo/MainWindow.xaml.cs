@@ -68,7 +68,7 @@ namespace AsyncAwaitDemo
             watch.Stop();
 
             var elapsedMs = watch.ElapsedMilliseconds;
-            resultsWindow.Text += $"Total execution time: { elapsedMs }";
+            resultsWindow.Text += $"\nTotal execution time: { elapsedMs }";
         }
 
         private async void executeAsyncParallel_Click(object sender, RoutedEventArgs e)
